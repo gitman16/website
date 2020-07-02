@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="add content">
+  <meta name="keywords" content="add keywords, separate, with, commas">
+  <meta name="author" content="add your name">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>minecraft</title>
+  <link  rel="stylesheet"  href="bookstyle2.css">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrapper">
+<a href="index.html">
+</a>
+<div class="box banner">
+<br>
+<img src="images/mctitle.png" style="width:50%" alt="minecraft" >
+<br>
+welcome to the nether
+</div>    <!--  /  banner  -->
+<!--navigation -->
+<div class="box nav"> 
+<div class="topnav" id="myTopnav">
+<!--index -->
+<a href="index.html"> Homepage </a>
+<a href="nether.html" class="active">nether </a>
+<a href="theend.html">The End </a>
+<a href="contact.html">contact</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<i class="fa fa-bars"></i>
+    </a>
+                         
+    </div></div> <!--/navigation box -->
+
+<div class="box logo">
+<img src="images/minecraft-blocck.png" alt="grassblock" style="width:100%"/>
+</div>    <!--  /  logo  --> 
+<!--<div class="parallax"></div>-->
+<div class="box main">
+    <h2> The Nether</h2> <p>The Nether (Nether Wastes in upcoming 1.16) is a hell-like dimension and biome that is linked to the Overworld by Nether portals. It is filled with rugged terrain, fire, seas of lava, columns of lava, Netherrack, unique ores, and unique hostile mobs. The Nether wastes in 1.16 is the same with the original Nether biome.</p>
+
+<!-- Trigger the Modal -->
+<img id="myImg" src="images/minecraft-1784541_1920.jpg" alt="ghasts in the nether" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+    </div>
+    <p>Pictured above is a screen shot from inside the nether biome and shows the landscape and the flying ghast mobs</p>
+    
+</div>    <!--  /  main  -->
+<div class="box side">
+magma slime:
+<div class="container-audio">
+<audio autoplay controls loop>
+<source src="music/Minecraft-jump3.mp3"
+    type="audio/mpeg">
+<source src="music/Minecraft-jump3.mp3"
+    type="audio/ogg">
+<source src="music/Minecraft-jump3.mp3"
+    type="audio/wav">
+</audio>
+    </div>
+zombie pigman:
+<div class="container-audio">
+<audio autoplay controls loop>
+<source src="music/Minecraft-zpig1.mp3"
+    type="audio/mpeg">
+<source src="music/Minecraft-zpig1.mp3"
+    type="audio/ogg">
+<source src="music/Minecraft-zpig1.mp3"
+    type="audio/wav">
+</audio>
+    </div>
+blaze:
+<div class="container-audio">
+<audio autoplay controls loop>
+<source src="music/Minecraft-breathe2.mp3"
+    type="audio/mpeg">
+<source src="music/Minecraft-breathe2.mp3"
+    type="audio/wav">
+<source src="music/Minecraft-breathe2.mp3"
+    type="audio/ogg">
+</audio>
+    </div>
+</div>    <!--  /  side  -->
+<div class="box footer">
+~CC Glen Smith 2020</div>    <!--  /  footer  -->
+
+
+
+</div>   <!--  /  wrapper  -->
+<!--link to java script-->
+<script src="gallery.js"></script> 
+    
+<script> // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}</script>
+</body>
