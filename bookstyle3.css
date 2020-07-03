@@ -4,7 +4,7 @@ margin:auto;
 padding:50px ;
 background-color: black;
 /* The image used */
-background-image: url("images/portal%20texture.png");
+background-image: url("portal%20texture.png");
 
   /* Full height */
 height: 100%;
@@ -37,7 +37,7 @@ grid-gap:5px;
 /* -000- area styling -000- */
 .box {
 padding: 20px;
-background-image: url(images/endstone.png);
+background-image: url(endstone.png);
 border-radius: 20px;
 }
 
@@ -128,7 +128,7 @@ border-radius: 10px ;
 
 /* Add an active class to highlight the current page */
 .active {
-  background-image: url(images/loggo.png);
+  background-image: url(loggo.png);
   color: white;
 }
 
