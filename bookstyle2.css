@@ -2,7 +2,7 @@
 body { 
 margin:auto;
 padding:50px ;
-background-image: url(images/lava1.png);
+background-image: url(lava1.png);
 font-family: 'VT323', monospace;
 
 /*animate the lava so it flows down the screen*/
@@ -32,7 +32,7 @@ grid-gap:5px;
 /* -000- area styling -000- */
 .box {
 padding: 20px;
-background-image: url(images/netherack.png);
+background-image: url(netherack.png);
 border-radius: 20px;
 }
 
@@ -179,7 +179,7 @@ border-radius: 10px ;
 
 /* Add an active class to highlight the current page */
 .active {
-  background-image: url(images/loggo.png);
+  background-image: url(loggo.png);
   color: white;
 }
 
